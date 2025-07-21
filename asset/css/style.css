@@ -71,11 +71,12 @@ form.col-6 {
   outline-color: red;
   border: 1px solid #0000005a;
   resize: vertical;
+  padding: 15px;
 }
 
-.text-area::placeholder {
+/* .text-area::placeholder {
   padding: 10px 0 0 5px;
-}
+} */
 
 .col-6 .col-3 {
   width: 50%;
