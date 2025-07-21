@@ -64,11 +64,13 @@ form.col-6 {
 
 .text-area {
   width: 100%;
-  height: 150px;
+  min-height: 150px;
+  max-height: 300px;
   margin: 10px 0;
   border-radius: 5px;
   outline-color: red;
   border: 1px solid #0000005a;
+  resize: vertical;
 }
 
 .text-area::placeholder {
@@ -142,7 +144,7 @@ form.col-6 {
   color: #fff;
 }
 
-/* remove arrow input */
+/* remove arrow input in type number*/
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
